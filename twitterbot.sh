@@ -8,7 +8,7 @@ rm shop.png
 sleep 15s
 
 #Change the "background" image URL to something different.
-curl "https://user-images.githubusercontent.com/64136458/80138468-21b79980-85a5-11ea-8c66-563555a07151.jpg" --output shop.png
+curl "https://user-images.githubusercontent.com/64136458/80143172-b40f6b80-85ac-11ea-9b71-bdba3ed25a80.jpg" --output shop.png
 
 #Please do not change anything in this section!
 cd ..
