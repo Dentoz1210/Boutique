@@ -26,7 +26,7 @@ def twitter_handle():
 photo = open('./output/news.png', 'rb')
 
 #Change the text into anything you like! (and please change the variables accordingly if you changed it above.)
-tweetStr = "Fortnite Battle Royale News Feed update for "+pht.strftime("%m/%d/%y")+', '+pht.strftime("%I:%M %p")+" PHT/GMT+8\n\n[Automatically Posted]"
+tweetStr = "Les nouveautés Fortnite du "+pht.strftime("%m/%d/%y")+', '+pht.strftime("%I:%M %p")+" PHT/GMT+8\n\n[Automatically Posted]"
 
 api = twitter_handle()
 response = api.upload_media(media=photo)	
