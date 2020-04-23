@@ -17,7 +17,7 @@ sleep 20s
 cd output
 
 #Change the "background" image URL to something different.
-curl "http://api3.nitestats.com/v1/news/image?background=https://github.com/kuletxcore/kxc-fortnite-bot/raw/master/media/news.jpg" --output news.png
+curl "https://user-images.githubusercontent.com/64136458/80138673-70fdca00-85a5-11ea-8cd4-7f46c3260777.jpg" --output news.png
 
 #Please do not change anything in this section!
 cd ..
