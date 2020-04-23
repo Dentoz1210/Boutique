@@ -26,7 +26,7 @@ def twitter_handle():
 photo = open('./output/shop.png', 'rb')
 
 #Change the text into anything you like! (and please change the variables accordingly if you changed it above.)
-tweetStr = 'Fortnite item shop for '+pht.strftime("%m/%d/%y")+'!\n'+pht.strftime("%I:%M %p")+', PHT/GMT+8\n\nIf you want to support me, make sure to use code \"KuletXCore\" on the Fortnite Item Shop!\nReally appreciate it!'
+tweetStr = 'Boutique Fortnite du '+pht.strftime("%m/%d/%y")+'!\n'+pht.strftime("%I:%M %p")+', PHT/GMT+8\n\nSi tu veux me soutenir, utilise le code \"Dentoz\" Dans la boutique Forntite !\nReally appreciate it!'
 
 api = twitter_handle()
 response = api.upload_media(media=photo)
