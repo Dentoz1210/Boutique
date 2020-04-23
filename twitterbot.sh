@@ -8,7 +8,7 @@ rm shop.png
 sleep 15s
 
 #Change the "background" image URL to something different.
-curl "http://api3.nitestats.com/v1/shop/image?background=https://raw.githubusercontent.com/kuletxcore/kxc-fortnite-bot/master/media/nitestats.jpg" --output shop.png
+curl "https://user-images.githubusercontent.com/64136458/80138468-21b79980-85a5-11ea-8c66-563555a07151.jpg" --output shop.png
 
 #Please do not change anything in this section!
 cd ..
